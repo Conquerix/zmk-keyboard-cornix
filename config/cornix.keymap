@@ -192,15 +192,8 @@
                 <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
-        Numbers {
-            display-name = "Numbers";
-
-            // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
-            // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
-            //                |      |       |       |      |      |  |      |      |      |       |      |
+        Navigation {
+            display-name = "Navigation";
 
             bindings = <
 &trans  &kp PRINTSCREEN  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP                    &kp MINUS       &kp EQUAL      &uu            &trans     &kp DOUBLE_QUOTES  &trans
@@ -213,6 +206,7 @@
         };
 
         FKeys {
+            display-name = "FKeys";
             bindings = <
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &trans  &trans  &trans  &trans  &trans  &bootloader
 &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &trans  &trans  &trans  &trans  &trans  &trans
